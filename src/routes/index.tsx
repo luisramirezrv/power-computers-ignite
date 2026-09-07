@@ -66,8 +66,9 @@ function BotonWhatsApp({
 }
 
 function Landing() {
-  const [activa, setActiva] = useState(CATEGORIAS[0].id);
-  const categoria = CATEGORIAS.find((c) => c.id === activa) ?? CATEGORIAS[0];
+  const [activa, setActiva] = useState(CATEGORIAS[0]!.id);
+  const categoria = CATEGORIAS.find((c) => c.id === activa) ?? CATEGORIAS[0]!;
+
 
   return (
     <div className="min-h-screen bg-background">
