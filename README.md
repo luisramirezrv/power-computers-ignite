@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Power Computers Showcase
+
+Quiero que construyas una landing page de una sola página (React + Tailwind CSS) para Power Computers, un local de tecnología en Zamora, Ecuador. Es una landing con catálogo visual de productos, sin carrito ni pago online: cada producto y cada sección de contacto derivan a WhatsApp.
+
+Marca y tono Nombre: Power Computers Rubro: venta de computadoras, reparación, soporte técnico a domicilio, mantenimiento y redes. Tono: directo, cercano, de barrio, sin tecnicismos innecesarios. Nada de frases genéricas tipo "la mejor tecnología al mejor precio". Idea de marca: el símbolo de encendido (⏻) como motivo visual recurrente, jugando con "tu equipo, siempre encendido". Sistema de diseño Paleta: rojo vivo #E1141B como color principal de acción, rojo profundo #9C0E12 para hover/estados, negro tinta #17181A para texto y fondos oscuros, blanco #FFFFFF como base, gris humo #F3F3F2 para fondos de sección alternos, gris línea #DEDEDC para bordes, gris acero #6B6E72 para texto secundario. Tipografía: dos familias claramente distintas — una display/geométrica y firme para títulos (ej. Space Grotesk) y una sans limpia para texto (ej. IBM Plex Sans o Inter). Nada de fuentes serif ni de aspecto "corporativo genérico". Estilo evitar: tarjetas idénticas con sombra suave gris y bordes redondeados iguales en todo, fondo crema con acento terracota, eyebrows en mayúsculas sostenidas, flechas "→" pegadas a los botones, separadores de puntos medios (·). Estilo buscar: layout con asimetría intencional, divisores de línea (no sombras), numeración solo donde hay secuencia real (ej. pasos de "por qué elegirnos"), un solo momento de protagonismo visual en el hero (el símbolo de encendido). Totalmente responsive, con foco de teclado visible y buen contraste. Estructura de la página Barra superior fija: logo/marca "Power Computers" con el ícono de encendido, enlaces a Catálogo / Por qué elegirnos / Visítanos, y botón destacado "Escribir por WhatsApp". Hero: fondo oscuro con el símbolo de encendido como gráfico principal. Titular corto y directo (algo como "Tu equipo, siempre encendido"), bajada de una línea explicando qué hace el local, dos botones: "Escribir por WhatsApp" (primario, rojo) y "Llamar ahora" (secundario, outline). Franja de confianza: tres datos cortos en una sola línea — horario de atención, visitas a domicilio en Zamora, diagnóstico antes de cobrar. Catálogo de productos, organizado en pestañas o secciones por categoría: Laptops PC de escritorio Accesorios y periféricos Impresoras y suministros Componentes (RAM, discos, tarjetas) Mantenimiento de equipos (mostrar como servicio, no como producto con precio fijo) Cada producto se muestra en una tarjeta con: imagen (usa un placeholder claro tipo ícono de categoría, no fotos de stock genéricas), nombre del producto, precio o "Desde $X" cuando el precio varíe, y un botón "Consultar por WhatsApp" que abre un mensaje predefinido mencionando el producto. Usa estos productos de ejemplo (son placeholders — dejar fácil de editar): Laptops: Laptop Core i5 8GB/256GB SSD — desde $450; Laptop Core i7 16GB/512GB SSD — desde $680; Laptop para oficina básica 4GB/128GB — desde $320 PC de escritorio: PC armada básica (oficina/estudio) — desde $380; PC armada gama media (multitarea) — desde $550; PC gamer/diseño a la medida — cotización según requerimiento Accesorios y periféricos: Teclado y mouse combo — $15; Audífonos con micrófono — $12; Webcam HD — $18; Estabilizador de voltaje — $25 Impresoras y suministros: Impresora multifunción tinta continua — $180; Cartuchos y tintas — desde $8; Resmas de papel — $4 Componentes: Memoria RAM 8GB DDR4 — $28; Disco sólido SSD 480GB — $35; Disco duro 1TB — $40; Tarjeta madre — desde $60 Mantenimiento de equipos: Limpieza y cambio de pasta térmica — $15; Formateo y respaldo de información — $12; Revisión general y diagnóstico — gratis con el servicio Por qué elegirnos: tres puntos breves — diagnóstico honesto antes de cobrar, soporte a domicilio en Zamora, negocio de barrio fácil de ubicar y de volver. Visítanos / Contacto: dos paneles lado a lado. Panel con datos: dirección "Pío Jaramillo y Amazonas, esquina" (con enlace a Google Maps), horario "9:30am a 8:00pm", teléfono "098 070 4490" (enlace tel:), WhatsApp "099 383 5082" (enlace wa.me). Panel rojo con llamado a la acción: "¿Buscas un equipo o necesitas soporte? Escríbenos por WhatsApp" con botón grande. Footer simple: nombre del local y dirección. Funcionalidad Todos los botones de compra o consulta abren WhatsApp (https://wa.me/593980704490) con un mensaje predefinido según la sección o producto (ej: "Hola, quiero consultar por: [nombre del producto]"). El botón "Llamar ahora" usa tel:+593980704490. No incluir carrito de compras ni pasarela de pago: esta es una landing de catálogo, no un checkout. El filtro de categorías del catálogo debe funcionar sin recargar la página (tabs o botones de filtro). Todo el contenido en español, tono cercano y sencillo. Notas Los precios y productos de arriba son de ejemplo; déjalos fácilmente editables en el código para que el dueño los actualice. Prioriza que la página cargue rápido y se vea bien en celular, ya que la mayoría de clientes va a llegar desde WhatsApp o redes sociales.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/41a9daa8-2f96-4391-ae38-99ad59632b7e).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
